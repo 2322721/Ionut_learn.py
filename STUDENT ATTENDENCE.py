@@ -82,16 +82,16 @@ def seed_students() -> None:
     """Preload the 10 students you provided with simple groups."""
     global next_student_id
     initial = [
-        ("Ramon Nastase",   "Group A"),
-        ("Dragos Ionel",    "Group A"),
-        ("Vlad Dimitrie",   "Group B"),
-        ("Bandon Josh",     "Group B"),
-        ("James Hall",      "Group C"),
-        ("Kate Mcbon",      "Group C"),
-        ("Lukas Michal",    "Group D"),
-        ("Sam Jodarby",     "Group D"),
-        ("Ali Khan",        "English-C"),
-        ("Sophie Lee",      "Maths-A"),
+        ["Ramon Nastase",   "Group A"],
+        ["Dragos Ionel",    "Group A"],
+        ["Vlad Dimitrie",   "Group B"],
+        ["Bandon Josh",     "Group B"],
+        ["James Hall",      "Group C"],
+        ["Kate Mcbon",      "Group C"],
+        ["Lukas Michal",    "Group D"],
+        ["Sam Jodarby",     "Group D"],
+        ["Ali Khan",        "English-C"],
+        ["Sophie Lee",      "Maths-A"],
     ]
     for name, group in initial:
         global students
@@ -241,3 +241,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
