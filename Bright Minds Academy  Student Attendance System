@@ -12,7 +12,7 @@ Features:
   0) Exit
 
 Data model (in-memory):
-  students   : dict[int, dict[str, str]] = { sid: {"name": str, "group": str} }
+  student   : dict[int, dict[str, str]] = { sid: {"name": str, "group": str} }
   attendance : dict[str, dict[int, str]] = { "YYYY-MM-DD": { sid: "P"|"A" } }
 
 No external dependencies. Python 3.9+ recommended.
